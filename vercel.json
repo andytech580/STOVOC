@@ -1,0 +1,107 @@
+{
+  "routes": [
+   {
+      "src": "/about",
+      "dest": "/pages/about.html"
+    },
+    {
+      "src": "/",
+      "dest": "/index.html"
+    },
+    {
+      "src": "/download-application",
+      "dest": "https://github.com/mrfrank-ofc/STM/raw/main/admin/stmarys_application_form.pdf"
+    },
+    {
+      "src": "/staff",
+      "dest": "/pages/stuff.html"
+    },
+    {
+      "src": "/ai",
+      "dest": "/pages/ai.html"
+    },
+    {
+      "src": "/dashboard",
+      "dest": "/users/student-dashboard.html"
+    },
+    {
+      "src": "/view",
+      "dest": "/pages/school-view.html"
+    },
+    {
+      "src": "/academics",
+      "dest": "/pages/school-academics.html"
+    },
+    {
+      "src": "/calender",
+      "dest": "/pages/school-calender.html"
+    },
+    {
+      "src": "/student-auth",
+      "dest": "/auth/student.html"
+    },
+    {
+      "src": "/admin-auth",
+      "dest": "/auth/admin.html"
+    },
+    {
+      "src": "/adminapplication",
+      "dest": "/pages/admin-application.html"
+    },
+    {
+      "src": "/reportcard",
+      "dest": "/reportcard.html"
+    },
+    {
+      "src": "/setreportcard",
+      "dest": "/pages/teacher-set-report.html"
+    },
+    {
+      "src": "/login",
+      "dest": "/pages/student-login.html"
+    },
+    {
+      "src": "/signup",
+      "dest": "/pages/student-signup.html"
+    },
+    {
+      "src": "/teacherslogin",
+      "dest": "/admin/admin-login.html"
+    },
+    {
+      "src": "/admin",
+      "dest": "/admin/admin.html"
+    },
+    {
+      "src": "/credits",
+      "dest": "/admin/credits.html"
+    },
+
+  
+    {
+      "src": "/teacherssignup",
+      "dest": "/admin/admin-signup.html"
+    },
+    {
+      "src": "/teachersdashboard",
+      "dest": "/admin/teachers-dashboard.html"
+    },
+    {
+      "src": "/dashboard",
+      "dest": "/pages/student-dashboard.html"
+    },
+    {
+      "src": "/teacherusers",
+      "dest": "/admin/teacher-users.html"
+    },
+    {
+      "src": "/studentusers",
+      "dest": "/pages/student-users.html"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/404.html"
+    }
+
+  ]
+}
